@@ -30,7 +30,9 @@ end
 def apply_coupons(cart, coupons)
   
   newhash = {}
-  cart.each do | hash | 
+  cart.each do | key, value | 
+    
+  end
     
  
 end
