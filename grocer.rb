@@ -36,7 +36,7 @@ def apply_coupons(cart, coupons)
         coupons.include?[key][AVACADO]
       if coupons == 
         coupons = 
-      
+      else coupons
      
       
         
