@@ -33,7 +33,7 @@ def apply_coupons(cart, coupons)
   
     cart.each do |hash|
       hash.each do |key,value| 
-    if  coupons[:item].include? key
+    if  coupons[:item].select[key]
     
         
   
