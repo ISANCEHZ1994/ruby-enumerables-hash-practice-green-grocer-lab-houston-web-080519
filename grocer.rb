@@ -30,16 +30,8 @@ end
 def apply_coupons(cart, coupons)
   
   newhash = {}
-  
-    cart.each do |hash|
-      hash.each do |key,value| 
-    if  coupons[:item].select[key]
-    
-        
-  
-  
-  
-  
+  cart.each do | block | do 
+ 
 end
 
 def apply_clearance(cart)
