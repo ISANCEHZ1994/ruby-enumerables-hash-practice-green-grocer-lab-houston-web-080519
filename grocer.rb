@@ -31,7 +31,10 @@ def apply_coupons(cart, coupons)
   
   newhash = {}
   cart.each do | key, value | 
-    
+    test_for_coupon = coupons.select { |entry| entry[key] == true }
+    if test_for_coupon.length > 0 then
+      newhash[key][:price] = coupons[key][:price]
+      
   end
     
  
