@@ -33,12 +33,8 @@ def apply_coupons(cart, coupons)
   
     cart.each do |hash|
       hash.each do |key,value| 
-        coupons.include?[key][AVACADO]
-      if coupons == 
-        coupons = 
-      else coupons
-     
-      
+        coupons.include?[key]["AVACADO"]
+    
         
   
   
